@@ -1,0 +1,160 @@
+﻿* 
+{
+	margin:0;
+	padding:0;
+}
+input[type=submit],button
+{
+	border:none;
+	border:1px solid #c39400;
+	padding:2px;
+	margin-right:2px;
+}
+input[type=submit]:hover
+{
+	background-color:Aqua;
+	
+}
+img
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	margin:5px auto;
+	padding:0 20px;
+	width:100%;
+	font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size:small;
+}
+#header
+{
+	width:90%;
+}
+#header img
+{
+	float:left;
+}
+#header ul
+{
+	display:block;
+	float:right;
+	list-style:none;
+	margin-top:50px;
+}
+#header ul li
+{
+	display:inline;
+}
+#header a
+{
+	text-decoration:none;
+	color:Black;
+	border-bottom:5px solid #EEEEEE;
+	font-weight:bold;
+	margin-left:1.6em;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#header a:hover,#header .active a
+{
+	border-bottom-color:black;
+}
+#wrapper
+{
+	width:100%;
+	float:left;
+	clear:both;
+	margin-top:10px;
+}
+#Left
+{
+
+	border-bottom:4px solid #c39400;
+	background:transparent url(../Images/LeftGore.gif) no-repeat scroll 0 0; 
+	width:180px;
+	float:left;
+}
+#Left img
+{
+	margin-top:10px;
+}
+#Content
+{
+	/*background:transparent url(../Images/ContentGore.gif) no-repeat scroll 0 0; */
+	border-bottom:4px solid #c39400;
+	float:left;
+	margin-left:10px;
+	width:80%;
+	padding:10px 0 0 0 ;
+}
+#footer
+{
+	width:100%;
+	clear:both;
+	margin-top:30px;
+	font-size:x-small;
+}
+
+#Vnimanie
+{
+	padding:10px;
+	font-family :Verdana;
+	font-size:1.2em;
+}
+.Vazno
+{
+	color:Red;
+}
+.Container
+{
+	border-top:4px solid #c39400;
+	background-color:#f4e1ab;
+	min-height:600px;
+}
+h2
+{
+	font-size:1em;
+	color : #C99F1A;
+}
+.selektiranRed
+{
+	background-color:#EDAE44;
+}
+#podatociDiv th,#narackaLista th
+{
+	border:1px solid #121421;
+	color:#7C583D;
+	background:#EDAE44;
+}
+.narackaMeni a
+{
+ text-decoration:none;
+ display:inline-block;
+ width:120px;
+ border: 1px solid #c39400;
+ margin-left:1px;
+ background-color:#E8E8E8;
+ color:Black;
+ padding:2px;
+ padding-left:5px;
+}
+.narackaMeni a:hover
+{
+ background-color:White;
+}
+.narackaPrva
+{
+	margin-top:70px;
+	margin-left:70px;
+}
+.naslovCrta
+{
+  border-bottom: 1px #c8c9cb;
+  border-bottom-style: double;
+  font-family:Verdana;
+  font-size:15px;
+  color: #778087;
+  margin-bottom:5px;
+}

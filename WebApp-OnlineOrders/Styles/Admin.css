@@ -1,0 +1,105 @@
+﻿.Clear
+{
+	display:block;
+	width:100%;
+	float:left;
+	clear:both;
+}
+#Meni
+{
+	width:90%;
+	float:left;
+	clear:both;
+	margin:5px auto;
+	padding:5px;
+}
+#Rezultat
+{
+	display:block;
+	width:90%;
+	float:left;
+	padding:10px 20px;
+}
+td,th
+{
+	padding:2px;
+}
+
+/* -- Meni Administratorsko */
+.AdminMeni ul
+{
+	list-style-type:none;
+}
+.AdminMeni li
+{
+	display:inline-block;
+	margin-left:2px;
+	width:100px;
+	float:left;
+}
+.AdminMeni a
+{
+	padding:3px;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	color:Black;
+	border:1px solid #c39400;
+}
+.AdminMeni a:hover
+{
+	background-color:#EEEEEE;
+}
+.AdminMeni .nav
+{
+	display:none;
+}
+.AdminMeni li:hover > ul
+{
+	display: block;
+	position: absolute;
+	width: 100px;
+	background-color: #7C583D;
+}
+
+
+
+
+/* TabelaRezultati - Prikaz na rezulati*/
+#Rezultat th
+{
+	border:1px solid #121421;
+}
+#Rezultat ul
+{
+	list-style-type:none;
+}
+#Rezultat li
+{
+	display:inline-block;
+	margin-left:5px;
+}
+#Rezultat a
+{
+	display:block;
+	border:1px solid #234314;
+	padding:3px 5px;
+	text-decoration:none;
+}
+.TabelaRezultati
+{
+	margin:0px;
+	padding:0px;
+}
+/*
+.TabelaRezultati tr
+{
+	padding:2px;
+	border:1px solid #234312;
+}
+*/
+.selektiran
+{
+	background-color:#607B8B;
+	border:1px solid #FF0000;
+}
